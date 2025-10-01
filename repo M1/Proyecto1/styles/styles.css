@@ -1,9 +1,9 @@
 
 body {
   font-family:Verdana, Geneva, Tahoma, sans-serif;
-  background-color: hsla(27, 75%, 71%, 0.945);
+  background-color: lab(83.04% -50.96 10.72 / 0.945);
   color:#713dd8;
-  margin: 30px;
+  margin: 40px;
 }
 
 h1{
@@ -13,11 +13,11 @@ p{
     color:black;
 }
 section,div{
-    background-color: bisque;
+    background-color: #c4ffdf;
 }
 
 .contenedor-de-secciones{
-    background-color: bisque;
+    background-color: #c4ffdf;
     display: flex;
     flex-direction: row;
     justify-content:space-between;
@@ -26,7 +26,7 @@ section,div{
 
 
 .seccion1{
-    background-color: azure;
+    background-color:aliceblue;
     width:750px;
     border: 2px solid saddlebrown;
 }
@@ -42,4 +42,8 @@ section,div{
 .seccion1:hover{
     background-color: bisque;
     transition-duration: 2s;
+}
+
+.ciclos{
+    width: 400px;
 }
