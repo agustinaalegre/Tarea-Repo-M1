@@ -1,73 +1,45 @@
-#titulo2{
-    color: black;
-    text-decoration: underline;
+
+body {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  background-color: hsla(27, 75%, 71%, 0.945);
+  color:#713dd8;
+  margin: 30px;
 }
 
-#titulo{
-    color: crimson;
+h1{
+    margin-left: 100px;
+}
+p{
+    color:black;
+}
+section,div{
+    background-color: bisque;
 }
 
-.tituloh2{
-    color: darkgreen;
-}
-.tituloh2:hover{
-    font-size: 50px;
-}
 .contenedor-de-secciones{
-    background-color: rgb(20, 94, 255);
+    background-color: bisque;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-}
+    justify-content:space-between;
 
-.seccion-1{
-    background-color: blue;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-     }
-.seccion-2{
-    background-color: chartreuse;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border: 2px solid black;
-    border-radius: 55px;
-    
-}
-.seccion-2:hover{
-    background-color: red;
-    transition: 4s;
-    
 }
 
 
-h1, h2, p {
-    color: aquamarine;
-   
+.seccion1{
+    background-color: azure;
+    width:750px;
+    border: 2px solid saddlebrown;
 }
-
-p{
-   color: aqua;
+.seccion2{ 
+    background-color: aliceblue;
+    width: 750px;
+    border: 2px solid saddlebrown;
 }
-
-header {
-    background-color: chocolate;
-    width: 300px;
-    
+.seccion2:hover{
+    background-color: bisque;
+    transition-duration: 2s;
 }
-main{
-    background-color: beige;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: stretch;
-}
-
-
-footer{
-    background-color: darkgreen;
-}
-body{
-    background-color: goldenrod;
+.seccion1:hover{
+    background-color: bisque;
+    transition-duration: 2s;
 }
